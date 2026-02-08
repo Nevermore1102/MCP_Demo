@@ -129,7 +129,7 @@ docs(readme): update quick start guide
 ### Git 配置
 - 用户名: Nevermore1102
 - 邮箱: 1535332051@qq.com
-- 远程仓库: https://github.com/Nevermore1102/MCP_Demo.git
+- 远程仓库: https://github.com/Nevermore1102/OpenCode_template.git
 - 代理设置: socks5://127.0.0.1:10808 (通过v2ray)
 - 主分支: main
 

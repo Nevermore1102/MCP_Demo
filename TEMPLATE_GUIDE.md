@@ -8,20 +8,15 @@
 
 ### 方法 1：GitHub Template（推荐）
 
-1. 访问 https://github.com/Nevermore1102/MCP_Demo
+1. 访问 https://github.com/Nevermore1102/OpenCode_template
 2. 点击 "Use this template" 按钮
 3. 输入仓库名称
 4. 克隆新仓库
 
-**优点：**
-- 简单、快速
-- 独立的项目（不与模板仓库关联）
-- 适合完全不同的项目
-
-### 方法 2：Git Clone
+**方法 2：Git Clone**
 
 ```bash
-git clone https://github.com/Nevermore1102/MCP_Demo.git my-project
+git clone https://github.com/Nevermore1102/OpenCode_template.git my-project
 cd my-project
 ```
 
@@ -156,8 +151,8 @@ credential.helper: store
 
 **1. Clone 项目**
 ```bash
-git clone https://github.com/Nevermore1102/MCP_Demo.git
-cd MCP_Demo
+git clone https://github.com/Nevermore1102/OpenCode_template.git
+cd OpenCode_template
 ```
 
 **2. 配置 Git 用户**（如果需要）
@@ -310,7 +305,7 @@ git credential approve
 定期访问模板仓库查看更新
 
 # 或使用 git（如果是 clone）
-git remote add template https://github.com/Nevermore1102/MCP_Demo.git
+git remote add template https://github.com/Nevermore1102/OpenCode_template.git
 git fetch template
 git merge template/main
 ```
@@ -333,4 +328,4 @@ git merge template/main
 
 如果这个模板对你有帮助，请给它一个 ⭐️！
 
-[Star History](https://star-history.com/#Nevermore1102/MCP_Demo&Date)
+[Star History](https://api.star-history.com/svg?repos=Nevermore1102/OpenCode_template&type=Date)](https://star-history.com/#Nevermore1102/OpenCode_template&Date)

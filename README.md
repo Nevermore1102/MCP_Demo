@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-1.1.53+-brightgreen.svg)](https://opencode.ai)
-[![GitHub Stars](https://img.shields.io/github/stars/Nevermore1102/MCP_Demo?style=social)](https://github.com/Nevermore1102/MCP_Demo)
-[![GitHub issues](https://img.shields.io/github/issues/Nevermore1102/MCP_Demo)](https://github.com/Nevermore1102/MCP_Demo/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/Nevermore1102/OpenCode_template?style=social)](https://github.com/Nevermore1102/OpenCode_template)
+[![GitHub issues](https://img.shields.io/github/issues/Nevermore1102/OpenCode_template)](https://github.com/Nevermore1102/OpenCode_template/issues)
 
 > 为 OpenCode 优化的项目模板，支持 GitHub 同步和多项目快速启动
 
@@ -23,7 +23,7 @@
 
 **方法 1：GitHub Template（推荐）**
 
-1. 访问 https://github.com/Nevermore1102/MCP_Demo
+1. 访问 https://github.com/Nevermore1102/OpenCode_template
 2. 点击 "Use this template" 按钮
 3. 输入仓库名称
 4. 克隆新仓库
@@ -31,7 +31,7 @@
 **方法 2：Git Clone**
 
 ```bash
-git clone https://github.com/Nevermore1102/MCP_Demo.git my-project
+git clone https://github.com/Nevermore1102/OpenCode_template.git my-project
 cd my-project
 ```
 
@@ -75,7 +75,7 @@ npm test
 ## 📁 项目结构
 
 ```
-my-project/
+OpenCode_template/
 ├── .github/                  # GitHub 配置
 │   ├── ISSUE_TEMPLATE/        # Issue 模板
 │   ├── PULL_REQUEST_TEMPLATE.md # PR 模板
@@ -230,4 +230,4 @@ ulw：深度分析这个模块的性能瓶颈
 
 如果这个模板对你有帮助，请给它一个 ⭐️！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Nevermore1102/MCP_Demo&type=Date)](https://star-history.com/#Nevermore1102/MCP_Demo&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Nevermore1102/OpenCode_template&type=Date)](https://star-history.com/#Nevermore1102/OpenCode_template&Date)
