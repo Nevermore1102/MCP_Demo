@@ -5,58 +5,27 @@
 ## 📋 如何贡献
 
 1. **Fork** 本仓库
-2. **创建特性分支** (`git checkout -b feature/AmazingFeature`)
-3. **提交更改** (`git commit -m 'feat: add some AmazingFeature'`)
-4. **推送到分支** (`git push origin feature/AmazingFeature`)
+2. **创建特性分支** (\`git checkout -b feature/AmazingFeature\`)
+3. **提交更改** (\`git commit -m 'feat: add some AmazingFeature'\`)
+4. **推送到分支** (\`git push origin feature/AmazingFeature\`)
 5. **开启 Pull Request**
 
 ## 🎯 开发流程
 
-### 分支策略
+### Git 分支策略
 
-```
-main (生产/稳定版本)
-  ↑
-develop (开发/集成分支)
-  ↑
-feature/* (功能分支)
-fix/* (修复分支)
-```
-
-- 所有 PR 必须指向 `develop` 分支
-- 指向 `main` 的 PR 会被 CI 自动拒绝
+详细说明请查看 [AGENTS.md](AGENTS.md)
 
 ### Conventional Commits
 
-提交信息格式：
-```
-<type>(<scope>): <subject>
-
-<body>
-```
-
-**类型：**
-- `feat`: 新功能
-- `fix`: Bug 修复
-- `docs`: 文档更新
-- `style`: 代码格式（不影响代码运行）
-- `refactor`: 重构
-- `test`: 测试相关
-- `chore`: 构建/工具相关
-
-**示例：**
-```
-feat(auth): add OAuth2 login support
-fix(api): resolve token expiration issue
-docs(readme): update quick start guide
-```
+详细说明请查看 [AGENTS.md](AGENTS.md)
 
 ### 代码规范
 
 - 遵循 AGENTS.md 中的代码规范
-- 运行 `npm run lint` 检查代码风格
-- 运行 `npm run typecheck` 检查类型
-- 运行 `npm test` 确保测试通过
+- 运行 \`npm run lint\` 检查代码风格
+- 运行 \`npm run typecheck\` 检查类型
+- 运行 \`npm test\` 确保测试通过
 
 ### 测试要求
 
@@ -91,25 +60,7 @@ docs(readme): update quick start guide
 
 ## 📧 开发命令
 
-```bash
-# 安装依赖
-npm install
-
-# 开发
-npm run dev
-
-# 构建
-npm run build
-
-# 测试
-npm test
-
-# Lint
-npm run lint
-
-# 类型检查
-npm run typecheck
-```
+详细说明请查看 [AGENTS.md](AGENTS.md)
 
 ## 📚 相关资源
 
