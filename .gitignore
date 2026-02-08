@@ -5,3 +5,6 @@ node_modules/
 .DS_Store
 *.log
 .cache/
+
+# OpenCode配置（不要提交敏感信息）
+.opencode/opencode.json

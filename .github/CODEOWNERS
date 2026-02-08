@@ -1,0 +1,23 @@
+# 代码所有者配置
+
+此文件定义了哪些人员或团队负责代码的特定部分。
+
+## 默认所有者
+
+* @Nevermore1102
+
+## 目录/文件特定所有者
+
+# 示例：
+# /src/components @ui-team
+# /api/backend @backend-team
+
+## 审查者
+
+# 如有多个维护者，可以添加：
+# * @maintainer1 @maintainer2 @maintainer3
+
+## 关于
+
+更多信息见：
+- https://docs.github.com/en/repositories/managing-access-to-your-repositorys-code/about-code-owners

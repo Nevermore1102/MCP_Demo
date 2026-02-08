@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // OpenCode模型配置 - 根据项目需求修改
+  "model": "{{OPENCODE_MODEL}}",
+  "small_model": "{{OPENCODE_SMALL_MODEL}}",
+
+  // 权限配置 - 灵活控制工具和技能访问
+  "permission": {
+    "skill": {
+      "*": "allow"
+    }
+  },
+
+  // 外部指令文件 - 自动加载到上下文
+  "instructions": [
+    "CONTRIBUTING.md",
+    "README.md",
+    "TEMPLATE_GUIDE.md"
+  ]
+}
